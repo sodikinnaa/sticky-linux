@@ -28,6 +28,20 @@ Sticky Notes is available to download on
   </picture>
 </a>
 
+### Quick Install (Debian/Ubuntu)
+
+You can quickly install all dependencies and build the application using the following `curl` command:
+
+```sh
+curl -sSL https://raw.githubusercontent.com/sodikinnaa/sticky-linux/main/install.sh | bash
+```
+
+Once built, you can run the application in development mode with:
+
+```sh
+meson compile -C build devel
+```
+
 ### From source
 
 To install from source, you need `nodejs` and `yarn` installed. Then, you need
